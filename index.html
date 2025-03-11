@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Spotify - Web Player: Music for everyone</title>
+    <link rel="stylesheet" href="StyleCss/style.css">
+    <link rel="stylesheet" href="StyleCss/utilaty.css">
+    <link rel="icon" type="image/png" sizes="32x32" href="image/Dakirby309-Simply-Styled-Spotify.256.ico">
+</head>
+<body>
+    <div class="All-sptify-items">
+        <div class="container flex bg-black">
+            <div class="left">
+                <div class="home bg-grey rounded m-1 p-1">
+                    <div class="logo">
+                        <img src="image/logo.svg" alt="Logo">
+                        <img id="close" class="close-bar" src="image/close.svg" alt="">
+                    </div>
+                    <ul>
+                        <li><img class="invert" src="image/home.svg" alt="home">Home</li>
+                        <li><img class="invert" src="image/search.svg" alt="Search">Search</li>
+                    </ul>
+                </div>
+                <div class="library bg-grey rounded m-1 p-1">
+                    <div class="heading">
+                        <img src="image/library-icon.svg" alt="icon">
+                        <h3>
+                            Your Library
+                        </h3>
+                    </div>
+                    <div class="songs-list">
+                        <ul>
+                            
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <!-- right contant---------------------------------- -->
+            <div class="right bg-grey rounded">
+                <div class="header">
+                    <div class="nav">
+                        <div class="bar-burger">
+                            <img class="ham-buger" src="image/humburger.svg" alt="">
+                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24"
+                                color="#ffffff" fill="none">
+                                <path d="M15 6C15 6 9.00001 10.4189 9 12C8.99999 13.5812 15 18 15 18" stroke="currentColor"
+                                    stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
+                            </svg>
+                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24"
+                                color="#ffffff" fill="none">
+                                <path d="M9.00005 6C9.00005 6 15 10.4189 15 12C15 13.5812 9 18 9 18" stroke="currentColor"
+                                    stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
+                            </svg>
+                        </div>
+                    </div>
+                    <div class="buttons">
+                        <button class="signup-btn">Sign Up</button>
+                        <button class="login-btn">Login</button>
+                    </div>
+                </div>
+                <div class="spotify-play-list">
+                    <h1>Spotify Playlists</h1>
+                    <div class="card-container">
+                        <!---------------------------- card ------------------- -->
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="play-bar-last">
+            <div class="play-bar">
+                <div class="control-bar">
+                    <div class="bar-info">
+                    </div>
+                    <div class="play-side">
+                        <img id="previes" src="image/preveis.svg" alt="">
+                        <img id="playButton" src="image/play.svg" alt="">
+                        <img id="next" src="image/next.svg" alt="">
+                    </div>
+                    <div class="time-volume">
+                        <div class="volume">
+                            <img src="image/volume.svg" alt="">
+                            <input type="range" name="" id="" min="0" max="100" value="100">
+                            <div class="volume-range">100</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="seek-container">
+                    <div class="run-time">
+                    </div>
+                    <input type="range" id="seekBar" min="0" max="100" value="0">
+                    <div class="current-time">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="/script/script.js"></script>
+</body>
+
+</html>
